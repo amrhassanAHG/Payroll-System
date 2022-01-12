@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image : url('../images/pay1.jpg') ;
+    height:100vh ;
+    background-size:cover ;
+    background-position : center ;
+    position: relative;
+
+}
+
+.main-nav{
+    float:right ;
+    list-style:none ;
+    margin-top:30px ;
+}
+
+.main-nav li {
+    display : inline-block ;
+}
+
+.main-nav li a {
+    color: white ;
+    text-decoration :none ; 
+    padding : 5px 20px ; 
+    font-family : "Roboto" , sans-serif ;
+    font-size :15px ; 
+}
+
+.main-nav li.active a  {
+    border : 2px solid white ;
+}
+
+.main-nav li a:hover {
+    border : 2px solid white ;
+}
+
+.payroll {
+    position: relative;
+    background-image: url(image-1.jpg);
+    font-size: larger;
+    font-stretch: extra-expanded;
+}
+.btn{
+    position: absolute;
+    -webkit-text-fill-color: deeppink;
+}
+
+.payroll_layout {
+    background: rgba(0,0,0, 0.5);
+    min-height: -webkit-fill-available;
+}
+.outdiv{
+    padding-top: 50px;
+    padding-left: 20px;
+
+}
+.text_layer{
+    background: rgba(29, 28, 27, 0.5);
+    box-shadow: -1px 4px 28px 0px rgb(0, 0, 0);
+    max-width: 400px;
+    margin: inherit;
+    padding: 3em 2em 2em 3em;
+    font-size: larger;
+    font-style: oblique;
+    font-family : "Roboto" , sans-serif ;
+    -webkit-text-fill-color: #fbf4f4f7;
+}
+.headerh3{
+    position: inherit;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+
+.div{
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    font-family: inherit;
+    font-style: oblique;
+    background-color: rgba(107, 132, 131, 0.29);
+    -webkit-text-fill-color: gray ;
+
+}
+
+.btn{
+    padding: initial;
+    -webkit-text-fill-color: gray;
+}
+
+
+
+
+
+
+
+
+

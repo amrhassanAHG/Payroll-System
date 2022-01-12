@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payroll calculation</title>
+<link rel="icon" type="image/png" href="images/calculation.png">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Slide Login Form template Responsive, Login form web template, Flat Pricing tables, Flat Drop downs Sign up Web Templates, Flat Web Templates, Login sign up Responsive web template, SmartPhone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
+        <link href="css/new calculate design.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="//fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+
+
+
+
+    </head>
+    <body>
+        <div class="w3layouts-main">
+            <div class="bg-layer">
+                <h1 class="h1"> Enter the following information </h1>
+                <div class="header-main">
+                    <div class="main-icon">
+                        <span class="fa fa-eercast"></span>
+                    </div>
+                    <div class="header-left-bottom">
+                        <form action="newjsp_1.jsp" method="post">
+                            <div class="icon1">
+                                <input type="data" placeholder="Enter your code" name="code" value="" size="30" required="Only: if BR, D0, D1 enter 0"/>
+                            </div>
+                            <div class="icon1">
+                                <input type="data" placeholder="Enter your salary" name="salary" value="" size="30" required="" />
+                            </div>
+                            
+                            <div>
+                                <select name="code_value" title="Choose your code" required="">
+                                    <optgroup label="Code">
+                                        <option value="200">BR</option>
+                                        <option value="300">D0</option>
+                                        <option value="400">D1</option>
+                                        <option value="500">None of the above</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <select name="pay_method" title="When do you pay?" required="">
+                                    <optgroup label="By month"> 
+                                        <option value="-1"> Month 1: 6 April to 5 May</option>
+                                        <option value="-2"> Month 2: 6 May to 5 June </option>
+                                        <option value="-3"> Month 3: 6 June to 5 July</option>
+                                        <option value="-4"> Month 4: 6 July to 5 August</option>
+                                        <option value="-5"> Month 5: 6 August to 5 September</option>
+                                        <option value="-6"> Month 6: 6 September to 5 October</option>
+                                        <option value="-7"> Month 7: 6 October to 5 November</option>
+                                        <option value="-8"> Month 8: 6 November to 5 December</option>
+                                        <option value="-9"> Month 9: 6 December to 5 January</option>
+                                        <option value="-10"> Month 10: 6 January to 5 February</option>
+                                        <option value="-11"> Month 11: 6 February to 5 March </option>
+                                        <option value="-12"> Month 12: 6 March to 5 April</option>
+                                    <optgroup label="By week">
+                                        <option value="1"> Week 1: 6 Apr to 12 Apr </option>
+                                        <option value="2"> Week 2: 13 Apr to 19 Apr</option>
+                                        <option value="3"> Week 3: 20 Apr to 26 Apr</option>
+                                        <option value="4"> Week 4: 27 Apr to 3  May</option>
+                                        <option value="5"> Week 5: 4  May to 10 May</option>
+                                        <option value="6"> Week 6: 11 May to 17 May</option>
+                                        <option value="7"> Week 7: 18 May to 24 May</option>
+                                        <option value="8"> Week 8: 25 May to 31 May</option>
+                                        <option value="9"> Week 9: 1  Jun to 7  Jun</option>
+                                        <option value="10"> Week 10: 8  Jun to 14 Jun</option>
+
+                                        <option value="11"> Week 11: 15 Jun to 21 Jun</option>
+                                        <option value="12"> Week 12: 22 Jun to 28 Jun</option>
+                                        <option value="13"> Week 13: 29 Jun to 5  Jul</option>
+                                        <option value="14"> Week 14: 6  Jul to 12 Jul</option>
+                                        <option value="15"> Week 15: 13 Jul to 19 Jul</option>
+                                        <option value="16"> Week 16: 20 Jul to 26 Jul</option>
+                                        <option value="17"> Week 17: 27 Jul to 2  Aug </option>
+                                        <option value="18"> Week 18: 3  Aug to 9  Aug</option>
+                                        <option value="19"> Week 19: 10 Aug to 16 Aug</option>
+                                        <option value="20"> Week 20: 17 Aug to 23 Aug</option>
+
+                                        <option value="21"> Week 21: 24 Aug to 30 Aug  </option>
+                                        <option value="22"> Week 22: 31 Aug to 6  Sep</option>
+                                        <option value="23"> Week 23: 7  Sep to 13 Sep</option>
+                                        <option value="24"> Week 24: 14 Sep to 20 Sep</option>
+                                        <option value="25"> Week 25: 21 Sep to 27 Sep</option>
+                                        <option value="26"> Week 26: 28 Sep to 4  Oct</option>
+                                        <option value="27"> Week 27: 5  Oct to 11 Oct</option>
+                                        <option value="28"> Week 28: 12 Oct to 18 Oct</option>
+                                        <option value="29"> Week 29: 19 Oct to 25 Oct</option>
+                                        <option value="30"> Week 30: 26 Oct to 1  Nov</option>
+
+                                        <option value="31"> Week 31: 2  Nov to 8  Nov</option>
+                                        <option value="32"> Week 32: 9  Nov to 15 Nov </option>
+                                        <option value="33"> Week 33: 16 Nov to 22 Nov </option>
+                                        <option value="34"> Week 34: 23 Nov to 29 Nov</option>
+                                        <option value="35"> Week 35: 30 Nov to 6  Dec</option>
+                                        <option value="36"> Week 36: 7  Dec to 13 Dec </option>
+                                        <option value="37"> Week 37: 14 Dec to 20 Dec </option>
+                                        <option value="38"> Week 38: 21 Dec to 27 Dec </option>
+                                        <option value="39"> Week 39: 28 Dec to 3  Jan</option>
+                                        <option value="40"> Week 40: 4  Jan to 10 Jan</option>
+
+
+                                        <option value="41"> Week 41: 11 Jan to 17 Jan </option>
+                                        <option value="42"> Week 42: 18 Jan to 24 Jan</option>
+                                        <option value="43"> Week 43: 25 Jan to 31 Jan</option>
+                                        <option value="44"> Week 44: 1  Feb to 7  Feb</option>
+                                        <option value="45"> Week 45: 8  Feb to 14 Feb</option>
+                                        <option value="46"> Week 46: 15 Feb to 21 Feb</option>
+                                        <option value="47"> Week 47: 22 Feb to 28 Feb </option>
+                                        <option value="48"> Week 48: 1  Mar to 7  Mar</option>
+                                        <option value="49"> Week 49: 8  Mar to 14 Mar </option>
+                                        <option value="50"> Week 50: 15 Mar to 21 Mar </option>
+                                        <option value="51"> Week 51: 22 Mar to 28 Mar </option>
+                                        <option value="52"> Week 52: 29 Mar to 4 Apr</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="icon1">
+                                <input type="data" placeholder="Salary to date" name="salary_to_date" value="" size="25" required="" />
+                            </div>
+                            <div >                                
+                                <select name="city" title="Choose the nearest city" required="">
+                                    <optgroup class="city" label="UK">
+                                        <option value="-101">Cardiff</option>
+                                        <option value="-102">Chelsea</option>
+                                        <option value="-103">Liverpool</option>
+                                        <option value="-104">London</option>
+                                        <option value="-105">Manchester</option>  
+                                    </optgroup>
+                                    <optgroup class="city" label="Scottish">
+                                        <option value="101">Aberdeen</option>
+                                        <option value="102">Ayr</option>
+                                        <option value="103">Edinburgh</option>
+                                        <option value="104">Elgin</option>
+                                        <option value="105">Ullapool</option>                                        
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="divbtn"> 
+                                <button class="btn" type="submit">Calculate</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
